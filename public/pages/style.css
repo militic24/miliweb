@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  /* Navigation Styling */
+  nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 16px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+  
+  /* Form Styling */
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  form input[type="button"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Image Styling */
+  img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 100%;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  /* Profile Page */
+  h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin: 15px 0;
+  }
+  
